@@ -8,10 +8,10 @@ const Services = () => {
   const [servicesData, setServicesData] = useState(services);
 
   const handleDelete = (id) => {
-    const updatedServices = services.filter(
-      (service) => service.id !== Number(id),
-    );
-    setServicesData(updatedServices);
+      const updatedServices = servicesData.filter(
+        (service) => service.id !== Number(id),
+      );
+      setServicesData(updatedServices);
   };
   return (
     <section className="section services" id="services">
