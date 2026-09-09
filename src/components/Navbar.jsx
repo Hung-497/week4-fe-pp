@@ -1,5 +1,6 @@
 import PageLinks from './PageLinks';
 import SocialLinks from './SocialLinks';
+import Registration from './Registration'
 
 const Navbar = () => {
   return (
